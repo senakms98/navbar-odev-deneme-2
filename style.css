@@ -61,9 +61,9 @@ font-weight: bold;
 
 @media (max-width:768px) {
     .mobile-menu{ 
-    display: flex;       
+     
     padding: 14px 16px;
-    flex-direction: column; 
+     
     position: absolute;
     background:#d0a824;
     width: 100%;
@@ -76,8 +76,10 @@ font-weight: bold;
     transform: translate(0, 55px);
     }
 
-    .mobile-menu a:hover {
-        background-color: #ddd;
-        color: black;
-      }
+    .mobile-menu ul{ 
+        display: flex;  
+        flex-direction: column; 
+ }
+
+    
 }
