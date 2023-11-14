@@ -42,7 +42,10 @@
       <h2 class="fs-5">
         Ne oluyor da butona bastığımda alttaki linkler görünmez ise görünür
         oluyor, görünür ise görünmez oluyor? Bunun mantığı nedir, nasıl
-        yapılmış?
+        yapılmış? burger.addEventListener("click", function(){ if
+        (mobileMenu.classList.contains("show")) {
+        mobileMenu.classList.remove("show") }else {
+        mobileMenu.classList.add("show") } })
       </h2>
       <p></p>
       <h2 class="fs-5">

@@ -61,9 +61,8 @@ font-weight: bold;
 
 @media (max-width:768px) {
     .mobile-menu{ 
-     
-    padding: 14px 16px;
-     
+        padding: 15px;
+        
     position: absolute;
     background:#d0a824;
     width: 100%;
@@ -79,7 +78,12 @@ font-weight: bold;
     .mobile-menu ul{ 
         display: flex;  
         flex-direction: column; 
+        
  }
+
+ 
+
+
 
     
 }
