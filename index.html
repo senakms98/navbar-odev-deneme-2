@@ -39,21 +39,21 @@
     </header>
     <section class="py-5 px-5">
       <h1 class="fs-3">CEVAPLAR</h1>
-      <h2 class="fs-5">
-        Ne oluyor da butona bastığımda alttaki linkler görünmez ise görünür
+      <h2 class="fs-5 mt-5">
+        1- Ne oluyor da butona bastığımda alttaki linkler görünmez ise görünür
         oluyor, görünür ise görünmez oluyor? Bunun mantığı nedir, nasıl
-        yapılmış? burger.addEventListener("click", function(){ if
-        (mobileMenu.classList.contains("show")) {
-        mobileMenu.classList.remove("show") }else {
-        mobileMenu.classList.add("show") } })
+        yapılmış?
       </h2>
-      <p></p>
-      <h2 class="fs-5">
-        Bunu responsive bir şekilde nasıl yapabilirdik? Masaüstü ekranında
+      <p>
+        Class ekleyip çıkartıyoruz. Eğer show classı varsa remove yapıyoruz.
+        Yoksa da else ile add yapıyoruz, ekletiyoruz.
+      </p>
+      <h2 class="fs-5 mt-4">
+        2- Bunu responsive bir şekilde nasıl yapabilirdik? Masaüstü ekranında
         normal navbar gösterip mobil ekranda bu şekilde açılıp kapanan mobil
         navbar nasıl yapabiliriz?
       </h2>
-      <p></p>
+      <p>Media query kullanarak yapabiliriz.</p>
     </section>
     <script src="script.js"></script>
     <script
